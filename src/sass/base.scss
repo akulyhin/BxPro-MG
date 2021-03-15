@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  
+    /*
+     * CSS image reference example.
+     */
+    background-image: url('../images/bg-pattern.png');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+
+  h2 {
+    font-weight: 900;
+  }
+  
+.messenger-block {
+  max-width: 100%;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.messenger_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.messenger_item {
+  list-style-type: none;
+}
+
+.messenger_link {  
+  width: 120px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 18px;
+  padding: 12px 8px;
+  display: inline-block;
+  transition: all.2s linear;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+
+  & i {
+    font-size: 20px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+  .telegram {
+    background-color: #039BE5;
+    margin-right: 20px;
+  }
+
+  .viber {
+    background-color: #675DA9;
+  }
